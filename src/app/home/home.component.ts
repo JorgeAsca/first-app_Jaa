@@ -27,7 +27,7 @@ export class HomeComponent {
     name: 'Test Home',
     city: 'Test city',
     state: 'ST',
-    photo: `${this.baseUrl}/beach-house.jpg`,
+    photo: `${this.baseUrl}/example-house.jpg`,
     availableUnits: 99,
     wifi: true,
     laundry: false,
