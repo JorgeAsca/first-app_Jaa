@@ -1,9 +1,10 @@
 import {Component} from '@angular/core';
 import { HomeComponent } from './home/home.component';
+import { HousingLocationComponent } from './housing-location/housing-location.component';
 
 @Component({
   selector: 'app-root',
-  imports: [HomeComponent],
+  imports: [HomeComponent ,HousingLocationComponent],
   template: `
     <main>
       <header class="brand-name">
@@ -15,6 +16,7 @@ import { HomeComponent } from './home/home.component';
     </main>
   `,
   styleUrls: ['./app.component.css'],
+
 })
 export class AppComponent {
   title = 'homes';
