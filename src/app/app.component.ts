@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import { HomeComponent } from './home/home.component';
 import { HousingLocationComponent } from './housing-location/housing-location.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
